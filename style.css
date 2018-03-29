@@ -1,0 +1,97 @@
+a{
+color: #FFF000;
+background-color:#545AFD;
+padding: 1%;
+border-radius: 10px 10px;	
+}
+
+#tra{-webkit-transform: rotateX(70deg); /* Safari */
+    transform: rotateX(150deg);
+}
+
+a:hover{
+background-color:yellow;
+padding: 0.5%;
+color: black;
+}
+
+body{
+	background-color: #7C2C0C;
+color:lightgreen;
+}
+
+
+
+
+table{
+border-radius: 100px;
+
+}
+.p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}	
+
+ol{
+list-style-image: url(images/2-2.png);	
+}
+
+
+
+h1{
+
+color: #FFFF00;	
+text-shadow: 5px 5px blue;
+background-color: ;
+
+margin-right: 10%;
+margin-left: 10%;
+
+font-family: broadway,serif,arial;
+
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+}
+
+input[type=numbers] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    }
+
+  select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    } 
+
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color:green;}
+}
+
+/* The element to apply the animation to */
+h3 {
+    width: 500px;
+    height: 25px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
